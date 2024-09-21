@@ -1,0 +1,14 @@
+npm install axios react-router-dom jwt-decode
+
+Axios
+Axios is a promise-based HTTP client for both the browser and Node.js. It simplifies making HTTP requests to servers, allowing developers to fetch or send data easily. Axios supports various request methods such as GET, POST, PUT, and DELETE. It also provides features like intercepting requests and responses, transforming request data, and handling errors effectively. Axios can be installed via npm and is widely used for interacting with REST APIs.
+
+
+react-router-dom
+react-router-dom is a library that enables routing in React applications. It allows developers to create single-page applications with navigation capabilities, enabling users to move between different views or components without reloading the entire page. The library provides components like <BrowserRouter>, <Route>, and <Link>, which help manage the application's URL and render the appropriate components based on the current path. This enhances user experience by providing seamless navigation.
+
+
+jwt-decode
+jwt-decode is a small library used to decode JSON Web Tokens (JWTs) without validating them. It allows developers to extract payload data from JWTs easily, which can be useful for accessing user information or permissions stored in the token. This library is particularly helpful in authentication scenarios where JWTs are used for securing API requests, enabling client-side applications to read user details from tokens.
+
+These libraries work together to facilitate data fetching, routing, and authentication in modern React applications, making them essential tools for developers.

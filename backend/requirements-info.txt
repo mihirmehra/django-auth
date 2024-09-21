@@ -1,0 +1,31 @@
+asgiref
+asgiref is a library that provides utilities for ASGI (Asynchronous Server Gateway Interface) applications. It includes tools for handling asynchronous programming in Python, making it easier to write concurrent code. This is particularly useful for web frameworks like Django when they need to handle multiple requests simultaneously without blocking.
+
+Django
+Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It simplifies the process of building web applications by providing built-in features like an ORM (Object-Relational Mapping), authentication, and an admin interface. Django follows the MVC (Model-View-Controller) architectural pattern and emphasizes reusability and "don't repeat yourself" (DRY) principles.
+
+django-cors-headers
+django-cors-headers is a Django application that adds Cross-Origin Resource Sharing (CORS) headers to responses. This allows web applications hosted on different domains to interact with each other. For example, if your frontend is served from one domain and your API from another, CORS must be configured to allow these cross-domain requests.
+
+djangorestframework
+Django REST Framework (DRF) is a powerful toolkit for building Web APIs in Django. It provides features like serialization, authentication, and view sets that make it easier to create RESTful APIs. DRF allows developers to build APIs that can easily communicate with frontend frameworks or mobile applications.
+
+djangorestframework-simplejwt
+djangorestframework-simplejwt is a JSON Web Token (JWT) authentication plugin for Django REST Framework. It provides a simple way to implement token-based authentication in your APIs, allowing users to authenticate without needing to send their credentials with every request. Instead, they receive a token upon logging in, which can be used for subsequent requests.
+
+PyJWT
+PyJWT is a Python library used for encoding and decoding JSON Web Tokens (JWT). It allows developers to create tokens that can securely transmit information between parties as a JSON object. PyJWT is often used alongside Django REST Framework for user authentication.
+
+pytz
+pytz is a Python library that enables accurate and cross-platform timezone calculations. It allows developers to work with time zones in their applications easily, ensuring that date and time data are handled correctly across different regions.
+
+sqlparse
+sqlparse is a non-validating SQL parser for Python. It provides support for parsing SQL statements into structured formats and formatting SQL queries into readable styles. This can be useful for applications that need to manipulate or analyze SQL queries programmatically.
+
+psycopg2-binary
+psycopg2-binary is a PostgreSQL adapter for Python. It allows Python applications to connect to PostgreSQL databases and execute SQL commands. The "binary" version simplifies installation by including pre-compiled binaries, making it easier to set up without needing additional compilation steps.
+
+python-dotenv
+python-dotenv is a library that reads key-value pairs from a .env file and adds them to the environment variables in your application. This is useful for managing configuration settings such as database credentials or API keys without hardcoding them into your source code, enhancing security and flexibility.
+
+These libraries collectively enhance the functionality of Django applications, making them more robust and easier to develop while adhering to best practices in web development.
